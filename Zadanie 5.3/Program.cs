@@ -22,9 +22,16 @@ namespace Zadanie_5._3
 
         static void Main(string[] args)
         {
-
+            double[,] A = new double[1, 2];
             double[,] wek = new double[3, 2];
-            Przesun();
+            Przesun(ref A,ref wek);
+        }
+        static void Przesun(ref double[,] A,ref  double[,] wek)
+        {
+            double[,] AA = new double[A.GetLength(0), A.GetLength(1)];
+            double[,] wekk = new double[wek.GetLength(0), wek.GetLength(1)];
+
+
         }
     }
 }
